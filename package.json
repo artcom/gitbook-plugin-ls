@@ -1,0 +1,17 @@
+{
+  "name": "gitbook-plugin-ls",
+  "description": "List files in a directory within a Gitbook",
+  "main": "index.js",
+  "version": "0.1.0",
+  "engines": {
+    "gitbook": "*"
+  },
+  "repository": "artcom/gitbook-plugin-ls",
+  "devDependencies": {
+    "eslint": "^1.0.0"
+  },
+  "dependencies": {
+    "lodash.repeat": "^3.0.1"
+  },
+  "license": "MIT"
+}
