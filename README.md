@@ -12,3 +12,14 @@ Add this to `book.json`:
     "plugins": ["ls"]
 }
 ```
+
+## Usage:
+
+```
+{% for file in "some/path" | ls %}
+  {% if topic.isFile %}
+    Path: {{ topic.path }}
+    Basename: {{ topic.basename }}
+  {% endif %}
+{% endfor %}
+```
